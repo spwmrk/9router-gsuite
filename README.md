@@ -169,9 +169,8 @@ sequenceDiagram
 ```
 .
 ├── 9router.py              # Main script (single file)
-├── accounts.txt.example    # Sample input format
-├── results.txt.example     # Sample output format
-├── requirements.txt        # playwright
+├── accounts.txt            # Sample input format
+├── results.txt             # Sample output format
 ├── .gitignore              # Ignores credentials & cache
 ├── LICENSE                 # MIT
 └── README.md
