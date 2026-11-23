@@ -121,29 +121,29 @@ python 9router.py
 Each account gets a colored frame with live progress.
 
 ```text
-┌─ Config ────────────────────────────────────────────┐
-│ Target       http://localhost:20128                 │
-│ Accounts                                      50    │
-│ Retry                                          3    │
-│ Workers                                        3    │
-│ Status                                     Online   │
-└────────────────────────────────────────────────────┘
+┌─ Config ─────────────────────────────────────────────┐
+│ Target       http://localhost:20128                  │
+│ Accounts                                          50 │
+│ Retry                                              3 │
+│ Workers                                            3 │
+│ Status                                        Online │
+└──────────────────────────────────────────────────────┘
 
 ┌─ 1/50 user@workspace.com ────────────────────────────┐
-│ >> Authorize                                        │
+│ >> Authorize                                         │
 │ .. Login                                             │
-│ .. Waiting callback                                 │
-│ .. Workspace ToS                                    │
-│ .. Native app confirmation                          │
-│ OK Code captured                                    │
-│ >> Exchange                                         │
-│ OK user@workspace.com                               │
-└────────────────────────────────────────────────────┘
+│ .. Waiting callback                                  │
+│ .. Workspace ToS                                     │
+│ .. Native app confirmation                           │
+│ OK Code captured                                     │
+│ >> Exchange                                          │
+│ OK user@workspace.com                                │
+└──────────────────────────────────────────────────────┘
 
 ┌─ Results ────────────────────────────────────────────┐
-│ OK user@workspace.com                               │
-│ OK other@workspace.com                              │
-└────────────────────────────────────────────────────┘
+│ OK user@workspace.com                                │
+│ OK other@workspace.com                               │
+└──────────────────────────────────────────────────────┘
 
 50 ok | 0 fail
 ```
