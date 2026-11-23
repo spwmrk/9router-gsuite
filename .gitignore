@@ -1,0 +1,11 @@
+# Results & accounts (contain credentials)
+results.txt
+accounts.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
