@@ -14,10 +14,8 @@
 <<<<<<< HEAD
 ```
 </pre>
-=======
-</pre>
-
->>>>>>> a22910e65ba7bea029403284eb3de61f96c0153d
+>>>>>>>>> Temporary merge branch 2
+</div>
 
 **Mass Google OAuth Automation for 9Router**
 
